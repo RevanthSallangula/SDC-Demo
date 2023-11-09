@@ -1,0 +1,7 @@
+#navbar-id {
+    padding: 10px 25px 10px 25px;
+}
+
+nav li {
+    display: inline-flex;
+}
