@@ -10,6 +10,12 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="/stylesheet.css" />
         <script defer src="/script.js"></script>
     </head>
@@ -31,26 +37,32 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About </a>
+                            <a class="nav-link" id="about-button" href="#"
+                                >About
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sponsers</a>
+                            <a class="nav-link disabled" href="#">Sponsers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
+                            <a class="nav-link disabled" href="#">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact </a>
+                            <a class="nav-link" id="contact-button" href="#"
+                                >Contact
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" id="register-button" href="#"
+                                >Register</a
+                            >
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div id="content">
-            <div id="home">
+        <div id="landing-page-content">
+            <div id="popeyes-garlic-chutney">
                 <div class="bg-dark py-5">
                     <div class="container px-5">
                         <div class="row gx-5 justify-content-center">
@@ -71,11 +83,102 @@
                     </div>
                 </div>
             </div>
-            <div id="about"></div>
-            <div id="sponsers"></div>
-            <div id="FAQ"></div>
-            <div id="contact"></div>
-            <div id="Register"></div>
+            <div
+                id="finding-revanth"
+                style="font-family: 'Roboto Mono', monospace"
+            >
+                <section id="scroll-1">
+                    <div class="container px-5">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-6 order-lg-2">
+                                <div class="p-5">
+                                    <img
+                                        class="img-fluid"
+                                        src="/Assets/img1.jpg"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1">
+                                <div class="p-5">
+                                    <h2 class="display-4">About Us!</h2>
+                                    <p>
+                                        GRIET SDC (SKILL DEVELOPMENT CELL) was
+                                        established on 01.05.2019. GRIET
+                                        (Gokaraju Rangaraju Institute of
+                                        Engineering and Technology) Skill
+                                        Development Cell has been entrusted with
+                                        the responsibility to train students by
+                                        providing them with various courses to
+                                        enhance their Employment/
+                                        Self-Employment opportunities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Content section 2-->
+                <section id="scroll-2">
+                    <div class="container px-5">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-6 order-lg-1">
+                                <div class="p-2">
+                                    <img
+                                        class="img-fluid"
+                                        src="/Assets/img3.jpg"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-2">
+                                <div class="p-5">
+                                    <h2 class="display-4">Contact Us</h2>
+                                    <p>
+                                        Greetings! We're delighted to connect
+                                        with you. Have a query, suggestion, or
+                                        just want to share a virtual high-five?
+                                        Our inbox is eagerly awaiting your
+                                        message. We're committed to swift
+                                        responses, so you won't be left hanging.
+                                        Your thoughts matter to us, and we're
+                                        here to make your online experience
+                                        seamless. Feel free to reach out, and
+                                        let's make this digital interaction
+                                        memorable. Thanks for considering us a
+                                        click away; we look forward to hearing
+                                        from you soon!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Content section 3-->
+                <section id="scroll-3">
+                    <div class="container px-5">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-6 order-lg-2">
+                                <div class="p-2">
+                                    <img
+                                        class="img-fluid"
+                                        src="/Assets/img2.jpg"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1">
+                                <div class="p-5">
+                                    <h2 class="display-4">Register</h2>
+                                    <p>
+                                        Registrations are now open for everyone!
+                                        Register for Epitome '23 to be a part of
+                                        GRIET's biggest fest yet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div style="padding-bottom: 500px"></div>
         </div>
 
         <script
